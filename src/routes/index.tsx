@@ -43,6 +43,7 @@ function Index() {
         <Services />
         <Technology />
         <Showcase />
+        <Channels />
         <WhyRedCup />
         <About />
         <FinalCTA />
