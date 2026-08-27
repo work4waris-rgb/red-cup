@@ -96,7 +96,7 @@ const CHANNELS: Channel[] = [
 
 export function Channels() {
   return (
-    <section id="channels" className="relative px-4 py-28">
+    <section id="channels" className="relative overflow-hidden px-4 py-28">
       <div className="ambient-red pointer-events-none absolute top-0 left-1/2 size-[700px] -translate-x-1/2 rounded-full opacity-50" />
       <div className="relative mx-auto max-w-6xl">
         <Reveal>
