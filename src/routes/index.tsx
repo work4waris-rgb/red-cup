@@ -12,6 +12,7 @@ import {
   WhyRedCup,
 } from "@/components/site/Sections";
 import { Footer } from "@/components/site/Footer";
+import { Channels } from "@/components/site/Channels";
 
 const TITLE = "Red Cup — Ideas In. Software Out.";
 const DESCRIPTION =
