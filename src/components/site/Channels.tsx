@@ -118,8 +118,8 @@ export function Channels() {
           {CHANNELS.map((c, i) => (
             <Reveal key={c.name} delay={(i % 2) * 0.08} className="h-full">
               <article className="glass glass-hover group flex h-full flex-col rounded-4xl p-6 sm:p-8">
-                <div className="flex items-start justify-between gap-4">
-                  <div className="flex items-center gap-4">
+                <div className="flex flex-wrap items-start justify-between gap-x-4 gap-y-3">
+                  <div className="flex min-w-0 items-center gap-4">
                     <span className="glass text-primary flex size-12 shrink-0 items-center justify-center rounded-2xl">
                       <c.icon className="size-6" strokeWidth={1.5} />
                     </span>
